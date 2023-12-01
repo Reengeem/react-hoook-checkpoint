@@ -12,10 +12,9 @@ function App() {
     <Routes>
       <Route path="/" element={<MoviePageLayout />}>
         <Route index element={<MoviePlace />} />
-        <Route path="/movieplace" element={<MovieplaceLayout />}>
-          <Route index element={<MoviePlace />} />
-          <Route path=":movieId" element={<MovieDescription />} />
-        </Route>
+        {/* <Route index element={<MoviePlace />} /> */}
+        <Route path=":movieId" element={<MovieDescription />} />
+        {/* <Route path="/movieplace" element={<MovieplaceLayout />}></Route> */}
         <Route path="/about" element={<AboutUs />} />
       </Route>
     </Routes>

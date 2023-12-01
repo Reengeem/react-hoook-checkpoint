@@ -16,7 +16,7 @@ const Navbar = () => {
           <h2 className="tracking-wide text-gray-50">Movie app</h2>
         </div>
         <div className="flex gap-4">
-          <NavLink className=" text-white" to="/movieplace">
+          <NavLink className=" text-white" to="/">
             Movieplace
           </NavLink>
           <NavLink className=" text-white" to="/about">

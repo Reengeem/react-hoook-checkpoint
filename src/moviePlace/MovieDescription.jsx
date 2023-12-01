@@ -47,7 +47,7 @@ export const MovieDescription = () => {
     <div className=" ">
       {/* Navigation link to Movie Place */}
       <div className="font-bold max-w-5xl mx-auto">
-        <NavLink to="/movieplace">
+        <NavLink to="/">
           <Button className=" font-bold shadow-md">Back to Movie place</Button>
         </NavLink>
       </div>

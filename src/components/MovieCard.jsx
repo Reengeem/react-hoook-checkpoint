@@ -11,7 +11,7 @@ const MovieCard = ({ id, posterUrl, title, description, rating }) => (
       <Rate disabled defaultValue={rating} />
     </div>
     <Link to={`${id}`}>
-      <Button>Trailer</Button>
+      <Button className=" mt-4">Trailer</Button>
     </Link>
   </Card>
 );
